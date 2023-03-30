@@ -1,104 +1,86 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title> Contatos </ion-title>
+  <ion-toolbar color="dark-blue">
+    <ion-title class="ion-text-center">CONTATOS</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-list>
-    <ion-item (click)="goToRoute('screen1')">
-      <ion-avatar slot="start">
-        <img
-          src="https://i.pinimg.com/236x/b9/fc/07/b9fc07e6eb36287fa9057159a00bb436--santiago-a-well.jpg"
-        />
-      </ion-avatar>
-      <ion-label>Amy Santiago
-        <p>sargentoSantiago@gmail.com</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
+  <div class="container">
+    <ion-list>
+      <ion-item (click)="goToRoute('screen1')">
+        <ion-avatar slot="start">
+          <img
+            src="https://i.pinimg.com/236x/b9/fc/07/b9fc07e6eb36287fa9057159a00bb436--santiago-a-well.jpg"
+          />
+        </ion-avatar>
+        <ion-label>Amy Santiago </ion-label>
+      </ion-item>
+    </ion-list>
 
-  <ion-list>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img
-          src="https://i.pinimg.com/550x/be/d5/66/bed5662d5b2abe1e63ebfa25f11e42b8.jpg"
-        />
-      </ion-avatar>
-      <ion-label
-        >Caption Raymond Holt
-        <p>captionHolt@gmail.com</p>
-      </ion-label>
-    </ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item (click)="goToRoute('screen2')">
+        <ion-avatar slot="start">
+          <img
+            src="https://i.pinimg.com/550x/be/d5/66/bed5662d5b2abe1e63ebfa25f11e42b8.jpg"
+          />
+        </ion-avatar>
+        <ion-label>Caption Raymond Holt </ion-label>
+      </ion-item>
+    </ion-list>
 
-  <ion-list>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img
-          src="https://www.tvguide.com/a/img/resize/a7c3a15b45addaf4b85b272e6a3bbff844296a80/catalog/provider/10/9/10-C02A2260-85B3-49BD-92DC-2C376D2097BF.png?auto=webp&fit=crop&height=300&width=200"
-        />
-      </ion-avatar>
-      <ion-label
-        >Charles Boyle
-        <p>paidonikolaj@gmail.com</p></ion-label
-      >
-    </ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item (click)="goToRoute('screen3')">
+        <ion-avatar slot="start">
+          <img
+            src="https://www.tvguide.com/a/img/resize/a7c3a15b45addaf4b85b272e6a3bbff844296a80/catalog/provider/10/9/10-C02A2260-85B3-49BD-92DC-2C376D2097BF.png?auto=webp&fit=crop&height=300&width=200"
+          />
+        </ion-avatar>
+        <ion-label>Charles Boyle</ion-label>
+      </ion-item>
+    </ion-list>
 
-  <ion-list>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img
-          src="https://www.thesun.ie/wp-content/uploads/sites/3/2020/08/80632ab71b6fca88fb8712b7c5d706ed0fde22cb-1.jpg?strip=all&quality=100&w=1080&h=600&crop=1s"
-        />
-      </ion-avatar>
-      <ion-label
-        >Gina Linetti
-        <p>novabeyonce@gmail.com</p></ion-label
-      >
-    </ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item (click)="goToRoute('screen4')">
+        <ion-avatar slot="start">
+          <img
+            src="https://www.thesun.ie/wp-content/uploads/sites/3/2020/08/80632ab71b6fca88fb8712b7c5d706ed0fde22cb-1.jpg?strip=all&quality=100&w=1080&h=600&crop=1s"
+          />
+        </ion-avatar>
+        <ion-label>Gina Linetti </ion-label>
+      </ion-item>
+    </ion-list>
 
-  <ion-list>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img
-          src="https://i.pinimg.com/736x/3e/4d/96/3e4d968ca1b62c868633599d0bdc8e6d.jpg"
-        />
-      </ion-avatar>
-      <ion-label
-        >Jake Peralta
-        <p>jakesantiago@gmail.com</p></ion-label
-      >
-    </ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item (click)="goToRoute('screen5')">
+        <ion-avatar slot="start">
+          <img
+            src="https://i.pinimg.com/736x/3e/4d/96/3e4d968ca1b62c868633599d0bdc8e6d.jpg"
+          />
+        </ion-avatar>
+        <ion-label>Jake Peralta </ion-label>
+      </ion-item>
+    </ion-list>
 
-  <ion-list>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img
-          src="https://i.pinimg.com/736x/2a/63/f8/2a63f88630019686e980a0966d5dd4b3.jpg"
-        />
-      </ion-avatar>
-      <ion-label
-        >Rosa Diaz
-        <p>rosadiaz@gmail.com</p></ion-label
-      >
-    </ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item (click)="goToRoute('screen6')">
+        <ion-avatar slot="start">
+          <img
+            src="https://i.pinimg.com/736x/2a/63/f8/2a63f88630019686e980a0966d5dd4b3.jpg"
+          />
+        </ion-avatar>
+        <ion-label>Rosa Diaz </ion-label>
+      </ion-item>
+    </ion-list>
 
-  <ion-list>
-    <ion-item>
-      <ion-avatar slot="start">
-        <img
-          src="https://i.pinimg.com/474x/dc/c1/e1/dcc1e10def61ba2131988db911d215e4.jpg"
-        />
-      </ion-avatar>
-      <ion-label
-        >Terry Jeffords
-        <p>tenentejeffords@gmail.com</p></ion-label
-      >
-    </ion-item>
-  </ion-list>
+    <ion-list>
+      <ion-item (click)="goToRoute('screen7')">
+        <ion-avatar slot="start">
+          <img
+            src="https://i.pinimg.com/474x/dc/c1/e1/dcc1e10def61ba2131988db911d215e4.jpg"
+          />
+        </ion-avatar>
+        <ion-label>Terry Jeffords </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
 </ion-content>
